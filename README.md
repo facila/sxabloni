@@ -1,2 +1,2 @@
 # sxabloni
-module python pour templates
+Module python pour templates
