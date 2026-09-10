@@ -1,5 +1,5 @@
 # sxabloni
-
+'''
 module sxabloni_templates.py version 1.00 Septembre 2026 par Thierry Le Gall
 
 fonction : remplacement des variables des templates par leurs valeurs dans la structure data
@@ -100,3 +100,4 @@ interface Vlan10
  no ip standby 2 preempt
  ip helper 192.168.100.10
  ip helper 192.168.100.11
+'''
