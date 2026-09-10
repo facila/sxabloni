@@ -1,6 +1,11 @@
-# sxabloni
+# facila sxabloni : module python pour template
+version 1.00 Septembre 2026 par Thierry Le Gall
 ```
-module sxabloni_templates.py version 1.00 Septembre 2026 par Thierry Le Gall
+script sxabloni.py
+
+```
+```
+module sxabloni_templates.py 
 
 fonction : remplacement des variables des templates par leurs valeurs dans la structure data
 
