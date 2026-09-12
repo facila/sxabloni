@@ -1,17 +1,19 @@
-# facila sxabloni : module python pour template
+### facila sxabloni : module python pour template
 
-version 1.00 Septembre 2026 par Thierry Le Gall
-```
-script sxabloni.py utilisant le module sxabloni_templates.py
+    version : 1.00 Septembre 2026
+    auteur  : Thierry Le Gall
+    contact : facila@gmx.fr
+    site    : https://github.com/facila/sxabloni
 
-exécution du template :
-  format yaml : sxabloni.py template [value] -y yaml
-  format data : sxabloni.py template [value] -d data -m module
+    # script sxabloni.py utilisant le module sxabloni_templates.py
 
-  format yaml : à partir d'un fichier yaml
-  format data : à partir d'un fichier data de fonctions et paramètres plus un module python de fonctions data_xxx.py
+    exécution du template :
+      format yaml : sxabloni.py template [value] -y yaml
+      format data : sxabloni.py template [value] -d data -m module
 
-```
+      format yaml : à partir d'un fichier yaml
+      format data : à partir d'un fichier data de fonctions et paramètres plus un module python de fonctions data_xxx.py
+
 ```
 module sxabloni_templates.py 
 
