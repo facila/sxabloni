@@ -1,5 +1,5 @@
 # facila sxabloni : module python pour template
-
+```
 template interfaces :
 !
 interface << interfaces >>
