@@ -43,7 +43,7 @@ interfaces:
         priority: 90
         preempt: false
 
-structure data :
+structure data générée à partir du fichier yaml :
 
 {'interfaces': {'Vlan10': {'addresses': [{'ip': '192.168.10.2',
                                           'mask': '255.255.255.0'},
