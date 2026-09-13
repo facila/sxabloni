@@ -1,6 +1,6 @@
 # Facila Sxabloni : module python pour template
 
-### template interfaces :
+### Template interfaces :
 ```
 !
 interface << interfaces >>
@@ -20,7 +20,7 @@ interface << interfaces >>
  speed << speed >>
  duplex << duplex >>
 ``` 
-### fichier yaml :
+### Fichier yaml :
 ```
 interfaces:
    Vlan10:
@@ -44,7 +44,7 @@ interfaces:
          priority: 90
          preempt: false
 ``` 
-### structure data générée à partir du fichier yaml :
+### Structure data générée à partir du fichier yaml :
 ```
 {'interfaces': {'Vlan10': {'addresses': [{'ip': '192.168.10.2',
                                           'mask': '255.255.255.0'},
