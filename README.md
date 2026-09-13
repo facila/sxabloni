@@ -4,7 +4,7 @@
     contact : facila@gmx.fr
     site    : https://github.com/facila/sxabloni
     
-### installation
+### Installation
 
     vous devez avoir installé au préalable :
     - python 
@@ -27,7 +27,7 @@
     si la variable globale $FACILA n'existe pas
     - elle est créée dans ~/.bashrc : "export FACILA=~/facila"
     
-### script sxabloni.py utilisant le module sxabloni_templates.py
+### Script sxabloni.py utilisant le module sxabloni_templates.py
 
     exécution du template :
       format yaml : sxabloni.py template [value] -y yaml
@@ -36,7 +36,7 @@
       format yaml : à partir d'un fichier yaml
       format data : à partir d'un fichier data de fonctions et paramètres plus un module python de fonctions data_xxx.py
 
-### module sxabloni_templates.py 
+### Module sxabloni_templates.py 
 
     fonction : remplacement des variables des templates par leurs valeurs dans la structure data
 
