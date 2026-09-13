@@ -19,31 +19,31 @@
     ip service-policy << service_policy_out >> out
     speed << speed >>
     duplex << duplex >>
-
-### fichier yaml :
     
+### fichier yaml :
+
     interfaces:
-  Vlan10:
-    description: Users Gateway
-    addresses:
-      - ip: 192.168.10.2
-        mask: 255.255.255.0
-      - ip: 192.168.11.2
-        mask: 255.255.255.0
-        secondary: true
-    helpers:
-      - 192.168.100.10
-      - 192.168.100.11
-    standbys:
-      1:
-        virtual_ip: 192.168.10.1
-        priority: 110
-        preempt: true
-      2:
-        virtual_ip: 192.168.11.1
-        priority: 90
-        preempt: false
-```
+      Vlan10:
+        description: Users Gateway
+        addresses:
+          - ip: 192.168.10.2
+            mask: 255.255.255.0
+          - ip: 192.168.11.2
+            mask: 255.255.255.0
+            secondary: true
+        helpers:
+          - 192.168.100.10
+          - 192.168.100.11
+        standbys:
+          1:
+            virtual_ip: 192.168.10.1
+            priority: 110
+            preempt: true
+          2:
+            virtual_ip: 192.168.11.1
+            priority: 90
+            preempt: false
+
 ### structure data générée à partir du fichier yaml :
 ```
 {'interfaces': {'Vlan10': {'addresses': [{'ip': '192.168.10.2',
