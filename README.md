@@ -4,9 +4,30 @@
     auteur  : Thierry Le Gall
     contact : facila@gmx.fr
     site    : https://github.com/facila/sxabloni
+    
+vous devez avoir installé au préalable :
+- perl 
+  apt-get install perl
+- Expect.pm
+  apt-get install perl-modules
+  cpan Expect.pm
 
-    install
+téléchargez konekto à partir de github :
+- cliquez sur : Code
+- cliquez sur : Download ZIP
 
+l'installation se fait dans le répertoire de l'utilisateur
+tapez les commandes suivantes :
+  MAIN=konekto-main
+  TAR=konekto.v1.10.tar.gz
+  DIR="nom du répertoire où se trouve le fichier téléchargé : $MAIN.zip"
+  cd
+  mv $DIR/$MAIN.zip .
+  unzip $MAIN.zip
+  sh $MAIN/install.sh $TAR
+
+si la variable globale $FACILA n'existe pas
+- elle est créée dans ~/.bashrc : "export FACILA=~/facila"
     
 ### script sxabloni.py utilisant le module sxabloni_templates.py
 
