@@ -1,28 +1,28 @@
 # Facila Sxabloni : module python pour template
 
-###template interfaces :
-```
-!
-interface << interfaces >>
- description << description >>
- <B2 no <b shutdown b> B>
- <B2 no <b switchport b> B>
- switchport mode << mode >>
- switchport trunk allowed vlan [[ trunk_vlans ]]
- switchport access vlan << access_vlan >>
- ip address {{ addresses }} << ip >> << mask >> <b secondary b>
- (( standbys ))
- ip helper [[ helpers ]]
- ip access-group << access_group_in >> in
- ip access-group << access_group_out >> out
- ip service-policy << service_policy_in >> in
- ip service-policy << service_policy_out >> out
- speed << speed >>
- duplex << duplex >>
-```
+### template interfaces :
+
+    !
+    interface << interfaces >>
+    description << description >>
+    <B2 no <b shutdown b> B>
+    <B2 no <b switchport b> B>
+    switchport mode << mode >>
+    switchport trunk allowed vlan [[ trunk_vlans ]]
+    switchport access vlan << access_vlan >>
+    ip address {{ addresses }} << ip >> << mask >> <b secondary b>
+    (( standbys ))
+    ip helper [[ helpers ]]
+    ip access-group << access_group_in >> in
+    ip access-group << access_group_out >> out
+    ip service-policy << service_policy_in >> in
+    ip service-policy << service_policy_out >> out
+    speed << speed >>
+    duplex << duplex >>
+
 ### fichier yaml :
-```
-interfaces:
+    
+    interfaces:
   Vlan10:
     description: Users Gateway
     addresses:
