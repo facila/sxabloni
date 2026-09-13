@@ -5,12 +5,10 @@
     contact : facila@gmx.fr
     site    : https://github.com/facila/sxabloni
     
-vous devez avoir installé au préalable :
-- perl 
-  apt-get install perl
-- Expect.pm
-  apt-get install perl-modules
-  cpan Expect.pm
+    vous devez avoir installé au préalable :
+    - python 
+      apt-get install python3
+
 
 téléchargez konekto à partir de github :
 - cliquez sur : Code
@@ -18,8 +16,8 @@ téléchargez konekto à partir de github :
 
 l'installation se fait dans le répertoire de l'utilisateur
 tapez les commandes suivantes :
-  MAIN=konekto-main
-  TAR=konekto.v1.10.tar.gz
+  MAIN=sxabloni-main
+  TAR=sxabloni.v1.00.tar.gz
   DIR="nom du répertoire où se trouve le fichier téléchargé : $MAIN.zip"
   cd
   mv $DIR/$MAIN.zip .
