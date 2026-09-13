@@ -5,6 +5,8 @@
     contact : facila@gmx.fr
     site    : https://github.com/facila/sxabloni
 
+    ins
+    
 ### script sxabloni.py utilisant le module sxabloni_templates.py
 
     exécution du template :
