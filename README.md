@@ -4,11 +4,12 @@
     auteur  : Thierry Le Gall
     contact : facila@gmx.fr
     site    : https://github.com/facila/sxabloni
+
+    install
     
     vous devez avoir installé au préalable :
     - python 
       apt-get install python3
-
 
 téléchargez konekto à partir de github :
 - cliquez sur : Code
