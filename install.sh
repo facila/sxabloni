@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# version 1.00 Septembre 2026
-# sh install.sh FICHIER
+# version 2.00 Septembre 2026
+# sh install.sh FILE
 
 check ()
 {
