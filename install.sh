@@ -3,16 +3,14 @@
 # version 1.00 Septembre 2026
 # sh install.sh FICHIER
 
-proc_exit ()
+check ()
 {
-case $1 in
-  perl) perl -e "$1" ;;
-python) python3 -c "$1" ;;
-esac 2>/dev/null
-[ $? != "0" ] && { echo "  vous devez d'abbord installer : $2" ; exit ; }
+local error="$1"
+shift
+"$@" 2>/dev/null || { echo "  vous devez d'abord installer : $error" ; exit ; }
 }
 
-#########################################################################
+###############################################################################
 
  FILE=$1
 APPLI=`echo $FILE | cut -f1 -d.`
@@ -24,7 +22,7 @@ FILE=$DIR/$FILE
 [ ! -s "$FILE"       ] && { echo "fichier $FILE absent" ; exit ; }
 
 echo "vérification des dépendances"
-proc_exit '' python
+. check.sh
 
 echo "verification de facila"
 if [ "$FACILA" = "" ]
