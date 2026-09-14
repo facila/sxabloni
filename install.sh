@@ -7,7 +7,7 @@ proc_check ()
 {
 ERROR=$1
 shift
-$@ 2>/dev/null || { echo "  vous devez d'abord installer : $ERROR" ; exit ; }
+"$@" 2>/dev/null || { echo "  vous devez d'abord installer : $ERROR" ; exit ; }
 }
 
 proc_facila ()
@@ -98,7 +98,7 @@ FILE=$DIR/$FILE
 [ "$EXT" != "tar.gz" ] && { echo "le fichier $FILE doit être un tar.gz" ; exit ; }
 
 echo "vérification des dépendances"
-. ./install_check.sh
+. $DIR/install_check.sh
 
 echo "verification de facila"
 proc_facila
