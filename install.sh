@@ -22,7 +22,7 @@ FILE=$DIR/$FILE
 [ ! -s "$FILE"       ] && { echo "fichier $FILE absent" ; exit ; }
 
 echo "vérification des dépendances"
-. check.sh
+. ./check.sh
 
 echo "verification de facila"
 if [ "$FACILA" = "" ]
