@@ -102,9 +102,9 @@ echo "vérification des dépendances"
 
 echo "verification de facila"
 proc_facila
+cd $FACILA
 
 echo "installation de $FILE"
-cd $FACILA
 proc_save_old
 tar -pxzf $FILE
 proc_init_data
