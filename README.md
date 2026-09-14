@@ -29,15 +29,6 @@
 
     si la variable globale $FACILA n'existe pas
     - elle est créée dans ~/.bashrc : "export FACILA=~/facila"
-    
-### Script sxabloni.py utilisant le module sxabloni_templates.py
-
-    exécution du template :
-      format yaml : sxabloni.py template [value] -y yaml
-      format data : sxabloni.py template [value] -d data -m module
-
-      format yaml : à partir d'un fichier yaml
-      format data : à partir d'un fichier data de fonctions et paramètres plus un module python de fonctions data_xxx.py
 
 ### Module sxabloni_templates.py 
 
@@ -65,3 +56,12 @@
       boolean    <B2 text <b var b> text B> : si true  -> "var"           , si false -> "text var text" , sinon : ne pas afficher la ligne
       boolean    <B3 text <b var b> B>      : si true  -> "text"          , si false -> ""              , sinon : ne pas afficher la ligne
       boolean    <B4 text <b var b> B>      : si true  -> ""              , si false -> "text"          , sinon : ne pas afficher la ligne
+
+### Script sxabloni.py utilisant le module sxabloni_templates.py
+
+    exécution du template :
+      format yaml : sxabloni.py template [value] -y yaml
+      format data : sxabloni.py template [value] -d data -m module
+
+      format yaml : à partir d'un fichier yaml
+      format data : à partir d'un fichier data de fonctions et paramètres plus un module python de fonctions data_xxx.py
