@@ -10,7 +10,7 @@
     - python 
       apt-get install python3
 
-    téléchargez sxabkoni à partir de github :
+    téléchargez sxabloni à partir de github :
     - cliquez sur : Code
     - cliquez sur : Download ZIP
 
