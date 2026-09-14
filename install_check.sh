@@ -1,3 +1,3 @@
 #!/bin/bash
 
-check python python3 -c ''
+proc_check python python3 -c ''
