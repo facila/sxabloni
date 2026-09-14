@@ -7,7 +7,7 @@
     contact : facila@gmx.fr
     site    : https://github.com/facila/sxabloni
     
-### Installation
+### Installation de facila sxabloni
 
     vous devez avoir installé au préalable :
     - python 
