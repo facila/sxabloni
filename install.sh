@@ -31,10 +31,11 @@ fi
 
 proc_save_old ()
 {
-[ ! -f "$DIR/install_$APPLI" ] && return
+OLD=$DIR/install_$APPLI
+[ ! -f $OLD ] && return
 
 OK_OLD=0
-for F in $(cat $DIR/install_$APPLI)
+for F in $(cat $OLD)
 do if [ -d $F -o -f $F ]
    then OK_OLD=1
         mkdir -p $SAVE/old/$F # création des répertoires contenus dans $F
