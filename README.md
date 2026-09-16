@@ -17,7 +17,7 @@
 
 ### Module sxabloni_templates.py 
 
-    fonction : remplacement des variables des templates par leurs valeurs dans la structure data
+    fonction : remplacement des variables des templates par leurs valeurs dans la structure struct
 
     format des templates :
      - il permet de ne pas avoir à faire de script à l'intérieur des templates , si then sinon , while , ...
@@ -46,7 +46,7 @@
 
     exécution du template :
       format yaml : sxabloni.py template [value] -y yaml
-      format data : sxabloni.py template [value] -d data -m module
+      format data : sxabloni.py template [value] -d dsl -m module
 
       format yaml : à partir d'un fichier yaml
-      format data : à partir d'un fichier data de fonctions et paramètres plus un module python de fonctions data_xxx.py
+      format data : à partir d'un fichier dsl de fonctions et paramètres plus un module python de fonctions xxx.py
