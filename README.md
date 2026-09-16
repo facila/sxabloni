@@ -46,7 +46,7 @@
 
     exécution du template :
       format yaml : sxabloni.py template [value] -y yaml
-      format data : sxabloni.py template [value] -d dsl -m module
+      format dsl  : sxabloni.py template [value] -d dsl -m module
 
       format yaml : à partir d'un fichier yaml
-      format data : à partir d'un fichier dsl de fonctions et paramètres plus un module python de fonctions xxx.py
+      format dsl  : à partir d'un fichier dsl de fonctions et paramètres plus un module python de fonctions xxx.py
