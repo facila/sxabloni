@@ -20,7 +20,7 @@
     fonction : remplacement des variables des templates par leurs valeurs dans la structure struct
 
     format des templates :
-     - il permet de ne pas avoir à faire de script à l'intérieur des templates , si then sinon , while , ...
+     - il permet de ne pas avoir à faire de script à l'intérieur des templates , if then else , while , ...
      - le format des templates inclu des conditions
      - les templates sont donc trés facile à élaborer et à lire
 
@@ -45,8 +45,8 @@
 ### Script sxabloni.py utilisant le module sxabloni_templates.py
 
     exécution du template :
-      format yaml : sxabloni.py template [value] -y yaml
-      format dsl  : sxabloni.py template [value] -d dsl -m module
+      format yaml : sxabloni.py model template [value] -y yaml
+      format dsl  : sxabloni.py model template [value] -d dsl
 
       format yaml : à partir d'un fichier yaml
-      format dsl  : à partir d'un fichier dsl de fonctions et paramètres plus un module python de fonctions xxx.py
+      format dsl  : à partir d'un fichier dsl de fonctions et paramètres plus le module python model
