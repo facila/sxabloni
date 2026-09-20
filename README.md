@@ -49,4 +49,10 @@
       format dsl  : sxabloni.py model template [value] -d dsl
 
       format yaml : à partir d'un fichier yaml
-      format dsl  : à partir d'un fichier dsl de fonctions et paramètres plus le module python model
+      format dsl  : à partir d'un fichier dsl de fonctions et paramètres et du module model associé
+
+    sxabloni est fourni avec un modèle cisco , que vous pouvez compléter
+
+    vous pouvez ajouter d'autres modéles
+      exécuter : model.sh
+      mettre à jour les fichiers du modéle : model et module
